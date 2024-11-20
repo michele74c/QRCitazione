@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citazione del Giorno</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="quote-container">
+        <p class="quote">{{ quote }}</p>
+        <p class="author">{{ author }}</p>
+        <p class="ver">v.0 MC</p>
+    </div>
+</body>
+</html>
