@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     qr = quote_random.quote_random()
-    quote = "Errore"
+    quote = "Errore citazione"
     author = "Riprova"
 
     try:
