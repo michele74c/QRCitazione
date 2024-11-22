@@ -16,7 +16,7 @@ def home():
             author = quote_author[0]
         else:
             quote = "Errore citazione"
-            author = ""
+            author = "(lo staff)"
     except:
         quote = "Errore"
         author ="Riprova"
