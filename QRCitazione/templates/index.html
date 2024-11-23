@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
+    <analitics import { Analytics } from "@vercel/analytics/react"/>
     <div class="quote-container">
         <p class="quote">{{ quote }}</p>
         <p class="author">{{ author }}</p>
